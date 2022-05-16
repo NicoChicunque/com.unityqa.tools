@@ -1,0 +1,15 @@
+{
+  "name": "com.unityqa.tools",
+  "version": "0.0.1",
+  "displayName": "Unity QA Tools",
+  "description": "Unity QA Tools to improve our workflow",
+  "unity": "2019.1",
+  "author": {
+    "name": "Nicolas Chicunque",
+    "email": "nico.chicunque@unity3d.com",
+    "url": "https://github.com/NicoChicunque/com.unityqa.tools"
+  },
+  "changelogUrl": "https://github.com/NicoChicunque/com.unityqa.tools/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/NicoChicunque/com.unityqa.tools/blob/main/Documentation~/com.unityqa.tools.md",
+  "licensesUrl": "https://github.com/NicoChicunque/com.unityqa.tools/blob/main/LICENSE.md"
+}

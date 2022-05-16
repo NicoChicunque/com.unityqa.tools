@@ -22,7 +22,7 @@ namespace UnityQA.Tools
 
         private static void LogMessageReceivedThreaded(string logString, string stackTrace, LogType type)
         {
-            string path = "./LogsQA/Log" + DateTime.Now.ToString("yyyy/MM/dd/HH:mm") + ".txt";
+            string path = "./LogsQA/Log" + DateTime.Now.ToString("yyyy/MM/dd/HH/mm") + ".txt";
             //SaveToFile(logString, "./Logs/Log" + DateTime.Now.ToString("yyyy/MM/dd/HH:mm") + ".txt");
             StreamWriter log = File.Exists(path) ? File.AppendText(path) : new StreamWriter(path);
             /*await*/log.WriteLineAsync(logString);

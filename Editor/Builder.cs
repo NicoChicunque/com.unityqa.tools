@@ -6,7 +6,7 @@ namespace UnityQA.Tools
 {
     public static class Builder
     {
-        [MenuItem("Build/Android")]
+        [MenuItem("UnitQA/Build/Android")]
         public static void BuildAndroid()
         {
             BuildReport buildReport = BuildPipeline.BuildPlayer(

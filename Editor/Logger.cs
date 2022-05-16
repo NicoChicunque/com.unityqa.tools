@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using UnityEditor;
 //using System.Threading.Tasks;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ namespace UnityQA.Tools
 {
     public static class Logger
     {
+        [MenuItem("UnitQA/PrintInfo")]
         public static void PrintInfo()
         {
             Application.logMessageReceivedThreaded += LogMessageReceivedThreaded;
